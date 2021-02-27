@@ -4,7 +4,14 @@ const fs = require('fs')
 
 
 let onRequest = (request, response) => {
-    if (request.url == '/home' || request.url == '/') {
+    if (request.url == '/') {
+        console.log('index');
+        response.writeHead(200, {
+            'Content-Type': 'text/html'
+        })
+        fs.createReadStream('index.html').pipe(response)
+    }
+    else if (request.url == '/home') {
         console.log('home');
         response.writeHead(200, {
             'Content-Type': 'text/html'
@@ -21,7 +28,7 @@ let onRequest = (request, response) => {
         }));
     } else {
         console.log('404');
-        response.write("<h1>404</h1>");
+        fs.createReadStream('404.html').pipe(response)
         response.writeHead(404, {"Content-Type": "text/html"});
     }
 }
