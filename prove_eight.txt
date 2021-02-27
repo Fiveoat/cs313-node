@@ -1,0 +1,28 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+0. Don't forget to also upload your javascript file to the assignment dropbox in I-Learn.
+
+1. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+I believe I was able to do all the parts of the assignment. 
+
+2. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+The coolest thing was learning the create server part of the assignment & how that comes togehter with the onRequest function to deliver differetn web pages. I have a raspberry pi & I want to turn it into a small web sever & deliver a node application & this assignment was helpful in part of making that happen. 
+
+3. Describe anything you did to go above and beyond with this assignment.
+
+I added a couple hmtl pages that are rendered on request instead of just some json.
+
+4. Please select the category you feel best describes your assignment:
+1 - Some attempt was made
+2 - Developing, but significantly deficient
+3 - Slightly deficient, but still mostly adequate
+4 - Meets requirements
+5 - Shows creativity and excels above and beyond requirements
+
+~ 4.5 ¯\_(ツ)_/¯ 
+
+5. Provide a brief justification (1-2 sentences) for selecting that category.
+
+I had to learn a few more things than the base assignment, but I also think that others may have done more. 
